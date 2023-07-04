@@ -1,7 +1,7 @@
 import os
 from collections import Counter,defaultdict #O(n)
 import re
-import spacy
+import spacy 
 import math
 from io import open
 nlp = spacy.load('fr_core_news_md')
