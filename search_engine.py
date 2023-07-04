@@ -286,6 +286,6 @@ def metrique(document, BDOC):
     return requete2docs
 
 #On crée au préalable 5 documents qui contiennent les 5 premières <record> du fichier OT1
-for fichier in os.listdir("."):
+for fichier in os.listdir("."): 
     print(metrique(fichier, BDOC))
 
